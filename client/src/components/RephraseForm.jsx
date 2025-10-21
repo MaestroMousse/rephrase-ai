@@ -97,7 +97,7 @@ function RephraseForm() {
           {loading ? (
             <span className="loading loading-spinner"></span>
           ) : (
-            "Rephrase"
+            "Rephrase my sentence!"
           )}
         </button>
       </form>

@@ -28,10 +28,9 @@ a:hover {
 
 body {
     margin: 0;
-    display: flex;
-    place-items: center;
     min-width: 320px;
     min-height: 100vh;
+    background-color: #2424;
 }
 
 h1 {
@@ -69,4 +68,32 @@ button:focus-visible {
     button {
         background-color: #f9f9f9;
     }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background: linear-gradient(
+        -45deg,
+        #e81cff,
+        #103783,
+        #696eff,
+        #432371,
+        #8752a3
+    );
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
 }
