@@ -5,6 +5,7 @@ Simple web-based tool to rephrase emails and messages powered by AI
 - Vite
 - React
 - Tailwind CSS
+- daisyUI
 - Node.js
 - Express
 - OpenAI API
